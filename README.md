@@ -1,20 +1,23 @@
-This is your group repo for your final project for COGS108.
+**Abstract**
 
-This repository is private, and is only visible to the course instructors and your group mates; it is not visible to anyone else.
+In the context of the global aging population, the prevalence of age-related diseases is increasing, with Alzheimer's disease being a notable example. Previous studies, including those on cardiovascular and eye diseases, have shown the efficacy of machine learning in predicting diseases. Inspired by these findings, we explored the potential of machine learning techniques to predict the onset of Alzheimer's disease based on clinical and personal data. Our aim is to contribute to early diagnosis and intervention for this neurodegenerative condition. We developed four predictive models: logistic regression, random forest, gradient boosting, and optimized gradient boosting. The optimized gradient boosting model demonstrated superior performance, with an accuracy of 86.67%, precision of 100%, recall of 66.67%, and an F1 score of 80%. This model proves moderately effective in predicting Alzheimer's disease, facilitating early diagnosis and intervention based on clinical and personal data.
 
-Template notebooks for each component are provided. Only work on the notebook prior to its due date. After each submission is due, move onto the next notebook (For example, after the proposal is due, start working in the Data Checkpoint notebook). 
+**How to Use**
+- **Prerequisites**: Ensure you have Python 3.6 or higher installed, along with the necessary libraries that can be found in the `Final-Report.ipynb` notebook.
+- **Installation**: Clone this repository. No separate installation of Python libraries is required beyond what is specified in the Jupyter notebook.
+- **Running the Models**: Open the `Final-Report.ipynb` notebook in Jupyter Notebook or JupyterLab. Run the cells in the notebook to train and test the models. You can modify parameters and model configurations directly in the notebook to experiment with different setups.
+- **Evaluation**: The evaluation metrics such as accuracy, precision, recall, and F1 score are calculated and displayed within the notebook after running the model cells.
 
-This repository will be frozen on the final project due date. No further changes can be made after that time.
+Please make sure to also check and follow the instructions within the notebook for any additional steps or specific settings that might be needed to replicate the study's results.
 
-Your project proposal and final project will be graded based solely on the corresponding project notebooks in this repository.
+**Dependencies**
 
-Template Jupyter notebooks have been included, with your group number replacing the XXX in the following file names. For each due date, make sure you have a notebook present in this repository by each due date with the following name (where XXX is replaced by your group number):
+- Python 3.6+
 
-- `ProjectProposal_groupXXX.ipynb`
-- `DataCheckpoint_groupXXX.ipynb`
-- `EDACheckpoint_groupXXX.ipynb`
-- `FinalProject_groupXXX.ipynb`
+- scikit-learn
 
-This is *your* repo. You are free to manage the repo as you see fit, edit this README, add data files, add scripts, etc. So long as there are the four files above on due dates with the required information, the rest is up to you all. 
+- pandas
 
-Also, you are free and encouraged to share this project after the course and to add it to your portfolio. Just be sure to fork it to your GitHub at the end of the quarter!
+- numpy
+
+- matplotlib
